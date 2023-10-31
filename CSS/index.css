@@ -23,16 +23,37 @@ body{
     padding-right: 50px;
 }
 
+@media (max-width: 1366px) {
+    .logo{
+        padding-left: 60px;
+    }
+
+}
+
+
+
 .navegação1{
     display: flex;
-    gap: 110px;
-    font-size: 27px;
+    gap: 300px;
+    font-size: 35px;
 }
 
 .navegação2{
     display: flex;
-    gap: 110px;
-    font-size: 27px;
+    gap: 300px;
+    font-size: 35px;
+}
+
+@media (max-width: 1325px) {
+    .navegação1{
+        gap: 200px;
+        font-size: 27px;
+    }
+
+    .navegação2{
+        gap: 130px;
+        font-size: 27px;
+    }
 }
 
 a{
