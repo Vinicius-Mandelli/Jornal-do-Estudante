@@ -13,50 +13,98 @@ body{
 
 .cabeçalho{
     display: flex;
-    flex-flow: center;
     justify-content: space-around;
     align-items: center;
     background-color: #98BBA7;
 }
 
 .logo{
-    padding-right: 50px;
-}
-
-@media (max-width: 1366px) {
-    .logo{
-        padding-left: 60px;
-    }
-
+    padding-left: 35px;
 }
 
 
 
 .navegação1{
     display: flex;
-    gap: 300px;
-    font-size: 35px;
+    gap: 250px;
+    font-size: 180%;
 }
 
 .navegação2{
     display: flex;
-    gap: 300px;
-    font-size: 35px;
-}
-
-@media (max-width: 1325px) {
-    .navegação1{
-        gap: 200px;
-        font-size: 27px;
-    }
-
-    .navegação2{
-        gap: 130px;
-        font-size: 27px;
-    }
+    gap: 250px;
+    font-size: 180%;
 }
 
 a{
     font-family: 'Days One', sans-serif;
     color: #FF7859;
+}
+
+main{
+    border-top: 1px solid black;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1{
+    font-size: 400%;
+    gap: 200%;
+    color: rgba(100, 128, 211, 1);
+}
+
+.texto1{
+    font-family: 'Days One', sans-serif;
+}
+
+h3{
+    color: rgba(39, 41, 45, 1);
+    font-size: 150%;
+}
+
+h5{
+    color: rgba(82, 78, 78, 1);
+}
+
+.intro{
+    padding-left: 6%;
+    width: 35%;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.titulo-second{
+    border-top: 1px solid black;
+    padding-top: 48px;
+    font-family: 'Days One', sans-serif;
+    color: rgba(255, 120, 89, 1);
+    margin-bottom: 16px;
+}
+
+p{
+    font-family: 'Days One', sans-serif;
+    color: rgba(82, 78, 78, 1);
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 1px solid black;
+    background-color: rgba(205, 205, 205);
+}
+
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
 }
