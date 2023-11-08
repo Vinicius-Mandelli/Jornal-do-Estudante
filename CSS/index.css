@@ -5,6 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
+}
+
+ul{
+    display: none;
+    font-family: 'Days One', sans-serif;
+    color: #FF7859;
 }
 
 body{
@@ -24,16 +31,20 @@ body{
 
 
 
-.navegação1{
+.navegacao1{
     display: flex;
     gap: 250px;
     font-size: 180%;
+    font-family: 'Days One', sans-serif;
+    color: #FF7859;
 }
 
-.navegação2{
+.navegacao2{
     display: flex;
     gap: 250px;
     font-size: 180%;
+    font-family: 'Days One', sans-serif;
+    color: #FF7859;
 }
 
 .menu{
@@ -134,28 +145,45 @@ p{
 }
 
 @media (max-width: 500px) {
-    .nav{
-        position: fixed;
+    .navigation{
+        align-content: space-between;
+    }
+    .nav-menu{
+        display: flex;
+        position: absolute;
         right: -100%;
-        top: 70px;
-        width: 100%;
-        height: 100%;
+        top: 146px;
+        width: 80%;
+        height: 200%;
         flex-direction: column;
-        background: white;
+        background: #98BBA7;
         gap: -10px;
         transition: 0.3s;
+        text-align: center;
+        font-size: 30px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nav-item{
+        display: flex;
     }
     .menu{
         display: block;
+    }
+    .menu.ativo .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .menu.ativo .bar:nth-child(2){
+        opacity: 0;
+    }
+    .menu.ativo .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
     }
     .cabeçalho{
         display: flex;
     }
     .first{
         flex-direction: column;
-    }
-    .logo{
-        padding-left: 85px;
     }
     .intro{
         width: 100%;
@@ -164,7 +192,32 @@ p{
     main{
         align-items: center;
     }
+    .rodape-imagem{
+        width: 100%;
+    }
+    h1{
+        font-size: 300%;
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+    }
     .titulo-second{
-        padding-left: 100px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .nav-menu.ativo{
+        right: 0;
+    }
+    .navegacao1{
+        display: none;
+    }
+    .navegacao2{
+        display: none;
     }
 }
