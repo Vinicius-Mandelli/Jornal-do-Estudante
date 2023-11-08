@@ -29,8 +29,6 @@ body{
     padding-left: 35px;
 }
 
-
-
 .navegacao1{
     display: flex;
     gap: 250px;
@@ -144,10 +142,15 @@ p{
     margin: 0 auto;
 }
 
+.nav:hover{
+    color: rgba(159, 61, 38, 1);
+}
+
+.nav-item:hover{
+    color: rgba(159, 61, 38, 1);
+}
+
 @media (max-width: 500px) {
-    .navigation{
-        align-content: space-between;
-    }
     .nav-menu{
         display: flex;
         position: absolute;
