@@ -10,6 +10,10 @@
     list-style: none;
 }
 
+.navigation{
+    display: none;
+}
+
 ul{
     display: none;
     font-family: 'Days One', sans-serif;
@@ -25,10 +29,6 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color: #98BBA7;
-}
-
-.logo{
-    padding-right: 20px;
 }
 
 .navegacao1{
@@ -132,4 +132,6 @@ main{
     .cabeçalho{
         display: flex;
     }
+    .navigation{
+    display: flex;}
 }

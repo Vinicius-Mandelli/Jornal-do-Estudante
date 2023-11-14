@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+.navigation{
+    display: none;
+}
+
 ul{
     display: none;
     font-family: 'Days One', sans-serif;
@@ -23,10 +27,6 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color: #98BBA7;
-}
-
-.logo{
-    padding-left: 35px;
 }
 
 .navegacao1{
@@ -222,5 +222,8 @@ p{
     }
     .navegacao2{
         display: none;
+    }
+    .navigation{
+        display: flex;
     }
 }
