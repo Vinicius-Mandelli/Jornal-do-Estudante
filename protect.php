@@ -5,7 +5,7 @@ if(!isset($_SESSION)) {
 }
 
 if(!isset($_SESSION['id'])) {
-    die("Ainda não pode acessar essa página, pois não foi efetuado o login.<p><a href=\"login.php\">Entrar</a></p>");
+    die("Ainda não pode acessar essa página, pois não foi efetuado o cadastro.<p><a href=\"cadastro.html\">Cadastrar</a></p>");
 }
 
 ?>

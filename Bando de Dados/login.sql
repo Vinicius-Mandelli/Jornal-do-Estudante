@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 11/12/2023 às 02:42
+-- Tempo de geração: 11/12/2023 às 23:37
 -- Versão do servidor: 8.2.0
 -- Versão do PHP: 8.2.13
 
@@ -34,14 +34,16 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `email` varchar(140) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `senha` varchar(16) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Despejando dados para a tabela `usuarios`
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES
-(1, 'Mandelli', 'jornaldoestudante@gmail.com', '1234');
+(1, 'Mandelli', 'jornaldoestudante@gmail.com', '1234'),
+(9, 'joao', 'joao@gmail.com', '1234'),
+(10, 'sans', 'sans@gmail.com', '1234');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
