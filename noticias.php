@@ -19,7 +19,7 @@ include('protect.php');
                     <li><a class="nav-item" href="noticias.php">Notícias</a></li>
                         <li><a class="nav-item" href="https://www.google.com">Artigos</a></li>
                         <li><a class="nav-item" href="https://www.google.com">Dicas</a></li>
-                    <li><a class="nav-item" href="https://www.google.com">Colaborações</a></li>
+                    <li><a class="nav-item" href="colaboracoes.html">Colaborações</a></li>
                 </ul>
         </nav>
 
@@ -32,7 +32,7 @@ include('protect.php');
 
         <nav class="navegacao2">
             <a class="nav" href="youtube.com">Dicas</a>
-                <a class="nav" href="youtube.com">Colaborações</a>
+                <a class="nav" href="colaboracoes.html">Colaborações</a>
         </nav>
 
             <div class="menu">

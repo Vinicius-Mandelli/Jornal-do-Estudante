@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+/* css do header */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navigation{
+    display: none;
+}
+
+ul{
+    display: none;
+    font-family: 'Days One', sans-serif;
+    color: #FF7859;
+}
+
+body{
+    font-size: 100%;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #98BBA7;
+}
+
+.navegacao1{
+    display: flex;
+    gap: 250px;
+    font-size: 180%;
+    font-family: 'Days One', sans-serif;
+    color: rgba(255, 120, 89, 1);
+}
+
+.navegacao2{
+    display: flex;
+    gap: 250px;
+    font-size: 180%;
+    font-family: 'Days One', sans-serif;
+    color: rgba(255, 120, 89, 1);
+}
+
+a{
+    color:rgba(255, 120, 89, 1);
+    font-family: 'Days One', sans-serif;
+}
+
+main{
+    border-top: 1px solid black;
+}
+
+.php{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.menu{
+    cursor: pointer;
+    display: none;
+}
+
+.menu .bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background:rgba(39, 41, 45, 1);
+    margin: 5px auto;
+    transition: all 1s;
+}
+
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3){
+    background: #FF7859;
+}
+
+.menu .bar:nth-child(2){
+    background:rgba(100, 128, 211, 1);
+}
+
+.nav:hover{
+    color: rgba(159, 61, 38, 1);
+}
+
+.nav-item:hover{
+    color: rgba(159, 61, 38, 1);
+}
+
+@media (max-width: 500px) {
+    .nav-menu{
+        display: flex;
+        position: absolute;
+        right: -100%;
+        top: 146px;
+        width: 80%;
+        height: 200%;
+        flex-direction: column;
+        background: #98BBA7;
+        gap: -10px;
+        transition: 0.3s;
+        text-align: center;
+        font-size: 30px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nav-menu.ativo{
+        right: 0;
+    }
+    .navegacao1{
+        display: none;
+    }
+    .navegacao2{
+        display: none;
+    }
+    .nav-item{
+        display: flex;
+    }
+    .menu{
+        display: block;
+    }
+    .menu.ativo .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .menu.ativo .bar:nth-child(2){
+        opacity: 0;
+    }
+    .menu.ativo .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .cabeçalho{
+        display: flex;
+    }
+    .navigation{
+    display: flex;}
+}
+
+/*estilização do main*/
+.Marcelo{
+    background-color: #98BBA7;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.Matheus{
+   background-color: #98BBA7;
+   margin: 2%;
+   padding: 2%;
+   border-radius: 15px;
+   border: 2px solid black;
+}
+
+.Rafael{
+    background-color: #98BBA7;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.Ryan{
+    background-color: #98BBA7;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.Vinicius{
+    background-color: #98BBA7;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+a{
+    color: #FF7859;
+}
+ h1{
+    background-color: #6964D3;
+    font-family: 'Days One', sans-serif;
+ }
+
+ a:hover{
+    color: rgba(159, 61, 38, 1);
+ }
+  
