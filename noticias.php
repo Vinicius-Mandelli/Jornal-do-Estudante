@@ -28,7 +28,7 @@ include('protect.php');
                 <a class="nav" href="youtube.com">Artigos</a>
         </nav>
 
-            <a href="noticias.html"><img class="logo" src="IMG/logo.svg" alt="logo - Jornal do Estudante"></a>
+            <a href="noticias.php"><img class="logo" src="IMG/logo.svg" alt="logo - Jornal do Estudante"></a>
 
         <nav class="navegacao2">
             <a class="nav" href="youtube.com">Dicas</a>
